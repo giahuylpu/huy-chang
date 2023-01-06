@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Our Wedding</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Sarah and John's Wedding</h1>
+      <h2>October 21, 2023</h2>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#details">Details</a></li>
+        <li><a href="#rsvp">RSVP</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section id="home">
+        <h2>Welcome to Our Wedding Website!</h2>
+        <div id="slideshow">
+          <img src="img/photo1.jpg" alt="Sarah and John at the beach">
+          <img src="img/photo2.jpg" alt="Sarah and John at their engagement party">
+          <img src="img/photo3.jpg" alt="Sarah and John on a hike">
+        </div>
+      </section>
+      <section id="details">
+        <h2>Wedding Details</h2>
+        <p>Our ceremony will take place at St. Mary's Church at 4:00pm on October 21st, followed by a reception at The Grand Hotel at 6:00pm.</p>
+      </section>
+      <section id="rsvp">
+        <h2>RSVP</h2>
+        <form id="rsvp-form">
+          <label for="name">Name:</label><br>
+          <input type="text" id="name" name="name"><br>
+          <label for="email">Email:</label><br>
+          <input type="text" id="email" name="email"><br>
+          <label for="guests">Number of guests:</label><br>
+          <input type="number" id="guests" name="guests"><br>
+          <input type="checkbox" id="attending" name="attending" value="yes">
+          <label for="attending">I will be attending</label><br>
+          <input type="submit" value="Submit">
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; Sarah and John 2023</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
